@@ -1,4 +1,4 @@
-# Machile-Learning-Excercises
+# Machine-Learning-Excercises
 We will be using the Appliances Energy Prediction dataset available for download at https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction
 Goal:
 Implement a linear regression model on the dataset to predict the energy usage of appliances. You are not allowed to use any available implementation of the regression model. You should implement the gradient descent algorithm with batch update (all training examples used at once). Use the sum of squared error normalized by 2*number of samples [J(β0, β1) = (1/2m)[Σ(yᶺ(i) – y(i))2] as your cost and error measures, where m is number of samples. You can use any number of features greater than 15. You can decide on which features to use using some experimentation and exploratory analysis.
